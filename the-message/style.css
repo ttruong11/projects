@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(#b8dafc, #ffffff);
+    overflow: hidden;
+}
+
+button{
+    width: fit-content;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+button:hover {
+    background: rgb(131, 131, 131);
+
+}
+
+.container{
+    border: 1px solid rgb(63, 61, 61);
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.message {
+    border: 1px solid lightgray;
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+    height: auto;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px 0px rgb(126, 125, 125);
+}

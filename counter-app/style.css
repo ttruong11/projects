@@ -1,0 +1,28 @@
+body{
+    background-color: yellow;
+}
+
+.container {
+    border: 1px solid black;
+
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    border: 5 px solid black;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 25px;
+    justify-content: center;
+    text-align: center; 
+    background: #fefeea;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}

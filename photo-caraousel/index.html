@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo </title>
+</head>
+<body>
+    <div class="container">
+        <div class ="image fade">
+            <img src="./img/demon1.png" alt="demon slayer1" width="100%">
+        </div>
+        <div class ="image fade">
+            <img src="./img/demon2.png" alt="demon slayer1" width="100%">
+        </div>
+        <div class ="image fade">
+            <img src="./img/demon3.png" alt="demon slayer1" width="100%">
+        </div>
+        <i onclick="showImage(-1)" id="prev"class="fas fa-arrow-left"></i>
+        <i onclick="showImage(1)" id="next" class="fas fa-arrow-right"></i>
+        <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
